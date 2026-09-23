@@ -10,7 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        THIS_IS_A_COMPILATION_ERROR_FOR_TESTING  // intentional error
+        int x = "THIS WILL NOT COMPILE"; // intentional type mismatch error
         System.out.println(MESSAGE);
     }
 
