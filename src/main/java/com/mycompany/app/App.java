@@ -10,10 +10,11 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println(MESSAGE);
+        int x = "BROKEN BUILD"; // compilation error: String cannot be assigned to int`n        System.out.println(MESSAGE);
     }
 
     public String getMessage() {
         return MESSAGE;
     }
 }
+
