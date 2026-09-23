@@ -10,6 +10,7 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
+        THIS_IS_A_COMPILATION_ERROR_FOR_TESTING  // intentional error
         System.out.println(MESSAGE);
     }
 
