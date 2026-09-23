@@ -10,7 +10,6 @@ public class App {
     public App() {}
 
     public static void main(String[] args) {
-        int x = "THIS WILL NOT COMPILE"; // intentional type mismatch error
         System.out.println(MESSAGE);
     }
 
